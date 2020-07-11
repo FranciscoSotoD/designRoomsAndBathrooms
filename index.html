@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900;300;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/395514d94b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Rooms and bathrooma</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <h2>Rooms and bathrooms</h2>
+            <div class="summary">
+                <p class="summaryText">Summary</p>
+                <p>6 guests</p>
+                <p>0 room(s)</p>
+                <p>0 bathrooms(s)</p>
+            </div>
+            <p class="info"><i class="fas fa-info-circle infoIco"></i> Occunpancy was previously set for guest pricing. It will be uptaded according to your
+            room configuration.
+            </p>
+        </div>
+
+        <div class="container2">
+            <h2>Rooms</h2>
+            <div class="containerRooms">
+                <div class="select roomType">
+                    <p>Room type</p>    
+                    <select name="selectRoom" id="selectRoom">
+                        <option value="room1">Small room</option>
+                        <option value="room2">Medium room</option>
+                        <option value="room3">Big room</option>
+                    </select>
+                </div>
+
+                <div class="select roomName">
+                    <p>Room name</p>
+                    <input type="text" placeholder="Bedroom A">
+                </div>
+
+                <div class="select beds">
+                    <p>Beds</p>
+                    <select name="selectBed" id="selectBed">
+                        <option value="bed1">Inividul bed</option>
+                        <option value="bed2">Big bed</option>
+                        <option value="bedd3">King size</option>
+                    </select>
+                </div>
+
+                <div class="select sleeps">
+                    <p>Sleeps</p>
+                    <input type="text" placeholder="1">
+                </div>
+                
+                <p class="aB"><i class="fas fa-plus-circle"></i> Add Bed</p>
+            </div>
+        </div>
+
+        <div class="addRoom">
+            <div class="add">
+                <p><i class="fas fa-plus-circle"></i> Add Room</p>
+            </div>
+        </div>
+
+        <div class="save">
+            <button>Save</button>
+        </div>
+    </div>
+</body>
+</html>

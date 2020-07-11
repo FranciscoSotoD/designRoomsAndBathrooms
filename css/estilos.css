@@ -1,0 +1,144 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    /*border: 1px solid #B3B6B7;*/
+    margin: auto;
+    padding: 20px;
+}
+
+.container1 h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: underline #00C2D1;
+}
+
+.container1 .summary {
+    background: #EEF0F2;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.summary .summaryText {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.summary p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 8px;
+    margin-left: 10px;
+}
+
+.container1 .info {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.container1 .infoIco {
+    color: #53B3CB;
+}
+
+.container2 h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.containerRooms {
+    /*border: 1px solid #DBD4D3;*/
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(47,45,46,.14);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.containerRooms p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #455561;
+}
+
+.containerRooms .aB:hover {
+    cursor: pointer;
+    color: #00C2D1;
+}
+
+.containerRooms select,
+.containerRooms .roomName input[type="text"],
+.containerRooms .sleeps input[type="text"] {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.containerRooms select {
+    cursor: pointer;
+}
+
+.containerRooms .select {
+    width: 50%;
+}
+
+.containerRooms .select select,
+.containerRooms .select input[type="text"] {
+    width: 95%;
+}
+
+
+.addRoom {
+    margin-top: 40px;
+    border: 1px solid #E8E9F3;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.addRoom .add p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: gray;
+    font-weight: 300;
+    cursor: pointer;
+}
+.addRoom .add p:hover {
+    color: #00C2D1;
+}
+
+.save {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}   
+
+.save button {
+    padding: 12px 40px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background: #00C2D1;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+.save button:hover {
+    background: #fff;
+    color: #00C2D1;
+    border: 1px solid #00C2D1;
+    transition: all .5 ease-in-out;
+}
